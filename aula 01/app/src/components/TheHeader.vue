@@ -1,6 +1,7 @@
 <template>
     <header class="header">
-        Bom dia
+    <slot></slot>
+    <slot name="title"></slot>
     </header>
 </template>
 
@@ -11,7 +12,7 @@
 
 </script>
 
-<style>
+<style scoped>
     .header{
         background: #000;
         color: white;
