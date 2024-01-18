@@ -1,12 +1,16 @@
 <template>
+  <navi>
+    <RouterLink to="/fechamento">Fechamento</RouterLink>
+  </navi>
+  <RouterView></RouterView>
+  
 
   <BaseAlert 
   v-if="showAlert"
   variant="success" 
   @close="onClose"></BaseAlert>
 
-  <TheHeader>
-    Bom Dia</TheHeader>
+  <TheHeader></TheHeader>
 
   <div v-show="showName">
   nome: {{ user.name }} <br>

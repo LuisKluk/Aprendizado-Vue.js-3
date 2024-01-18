@@ -1,8 +1,9 @@
 <template>
     <header class="header">
-    <slot></slot>
+    <slot>Bomdia</slot>
     <slot name="title"></slot>
     </header>
+    
 </template>
 
 <script>
