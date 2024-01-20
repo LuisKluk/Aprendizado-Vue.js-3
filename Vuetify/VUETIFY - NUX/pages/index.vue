@@ -57,7 +57,6 @@
 
     <v-main>
       <v-container>
-        <v-btn>Teste theme</v-btn>
         <h1 class="mb-6 text-brand">Dashboard</h1>
 
         <v-card flat class="border mb-4">
